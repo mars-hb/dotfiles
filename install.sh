@@ -39,7 +39,7 @@ if [ "$DIST" = "arch" ]; then
 elif [ "$DIST" = "debian" ]; then
 	echo -e "Updating \e[94mapt\e[39m packages."
 	apt-get update && apt-get -y upgrade
-	apt-get install -y vim i3 python python3 nodejs picom feh rofi zsh konsole dolphin curl gcc make
+	apt-get install -y vim i3 python python3 nodejs compton feh rofi zsh konsole dolphin curl gcc make
 fi
 
 
