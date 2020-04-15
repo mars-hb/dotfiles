@@ -28,6 +28,7 @@ elif [ -f /etc/lsb-release ]; then
 	DIST=debian
 else
 	echo -e "\e[41m[Error] Couldn't determine OS Version. Only Arch and Debian based operating systems supported."
+	exit 1
 fi
 
 echo -e "Found OS \e[94m$OS \e[39mbased on \e[94m$DIST\e[39m."
