@@ -13,4 +13,4 @@ alias venv="source venv/bin/activate"
 alias env="source env/bin/activate"
 alias vf='vim $(fzf)'
 alias dmv="mv /home/mars/Downloads/$(ls -Art /home/mars/Downloads | tail -n 1) "
-alias cores='watch -n1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\"'
+alias cores='watch -n1 "cat /proc/cpuinfo | grep \"^[c]pu MHz\""'
