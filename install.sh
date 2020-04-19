@@ -90,6 +90,6 @@ if [ "$DIST" = "arch" ]; then
 	cp .config/i3/config_arch /home/$EXEC_USER/.config/i3/config
 elif [ "$DIST" = "debian" ]; then
 	[ -f "/home/$EXEC_USER/.config/i3/config" ] && cp /home/$EXEC_USER/.config/i3/config backup/i3_config
-	cp .config/i3/config_arch /home/$EXEC_USER/.config/i3/config
+	cp .config/i3/config_debian /home/$EXEC_USER/.config/i3/config
 fi
 echo -e "\n\e[32mSetup script completed successfully."
