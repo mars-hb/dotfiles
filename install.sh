@@ -92,4 +92,8 @@ elif [ "$DIST" = "debian" ]; then
 	[ -f "/home/$EXEC_USER/.config/i3/config" ] && cp /home/$EXEC_USER/.config/i3/config backup/i3_config
 	cp .config/i3/config_debian /home/$EXEC_USER/.config/i3/config
 fi
+
+echo "Installing Vundle"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 echo -e "\n\e[32mSetup script completed successfully."
