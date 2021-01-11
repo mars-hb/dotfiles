@@ -52,6 +52,3 @@ Bundle 'Rykka/riv.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Rykka/InstantRst'
-
-let proj1 = { 'path': '/home/mars/Dokumente/projects/bachelorprojekt/literatur/zusammenfassung/einfuehrung', }
-let g:riv_projects = [proj1]
